@@ -64,7 +64,7 @@ your_database, your_username, your_password là những thông tin database củ
 
         Các tham số 
         name: tên muốn thay đổi
-        address: địa chỉ của người dùng
-        tel: số điện thoại của người dùng
+        address: địa chỉ của người dùng muốn thay đổi
+        tel: số điện thoại của người dùng muốn thay đổi
 
 

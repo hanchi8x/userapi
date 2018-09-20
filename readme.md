@@ -16,11 +16,19 @@
 
 your_database, your_username, your_password là những thông tin database của bạn.
 
-5. Chạy laravel bằng lệnh sau 
+5. Sau khi tạo database, và config .env Chạy lệnh sau để tạo bảng
+
+        php artisan migrate
+
+6. Sau khi tạo bảng dữ liệu, chạy lệnh sau để cài đặt passport
+
+        php artisan passport:install
+
+7. Chạy laravel bằng lệnh sau 
 
         php artisan serve
 
-## Test api với 
+## Test api của ứng dụng
 
 1. Dùng API/login để đăng nhập
 

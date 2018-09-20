@@ -67,4 +67,5 @@ your_database, your_username, your_password là những thông tin database củ
         address: địa chỉ của người dùng muốn thay đổi
         tel: số điện thoại của người dùng muốn thay đổi
 
-
+Good Luck! 
+Nếu có bất kỳ thắc mắc nào xin vui lòng liên hệ, 01227772057, Gặp A Cường.

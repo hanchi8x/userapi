@@ -30,11 +30,21 @@ your_database, your_username, your_password là những thông tin database củ
         Content-Type: application/json
         Content-Length: 0
 
+        Các tham số: 
+        email: email muốn login
+        password: mật khẩu
+
 2. Dùng API/register để đăng ký
 
         POST http://localhost:8000/api/register?name=disired_name&email=disired_email&password=disired_password&c_password=disired_password
         Request Headers
         content-type: application/json
+
+        Các tham số: 
+        name: tên muốn tạo (tên hiển thị)
+        email: mail dùng để đăng nhập
+        password: mật khẩu dùng để đăng nhập
+        c_password: mật khẩu dùng để đăng nhập
 
 3. Dùng API/details để xem thông tin
 
@@ -46,10 +56,15 @@ your_database, your_username, your_password là những thông tin database củ
 
 4. Dùng API/update để cập nhập thông tin
 
-        POST http://localhost:8000/api/update?name=CuongBaDao&address=35.2 Phan Huy Ich F12 Q.Go Vap&tel=0521354 
+        POST http://localhost:8000/api/update?name=changes_name&address=changed_address&tel=tel 
         Request Headers
         accept: application/json
         content-type: application/x-www-form-urlencoded
         authorization: Bearer .$accessToken 
+
+        Các tham số 
+        name: tên muốn thay đổi
+        address: địa chỉ của người dùng
+        tel: số điện thoại của người dùng
 
 
